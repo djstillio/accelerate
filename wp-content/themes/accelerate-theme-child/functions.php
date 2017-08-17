@@ -39,3 +39,16 @@
     );
 }
 add_action( 'init', 'create_custom_post_types' );
+
+function custom_field_excerpt() {
+    global $post;
+    $text = get_field('description');
+    if ( '' != $text ) {
+      $text = strip_shortcodes( $text );
+      $text = apply_filters('the_content', $text);
+      $text = str_replace(']]&gt;', ']]&gt;', $text);
+      $excerpt_length = 30; // 30 words
+      $text = wp_trim_words( $text, $excerpt_length, $excerpt_more );
+    }
+    return apply_filters('the_excerpt', $text);
+  }
