@@ -273,6 +273,22 @@
   margin: auto;
 }
 
+.button-section {
+  border-top: 1px solid #bfbfbf;
+}
+
+.button-section-header {
+  width: 55%;
+  float: left;
+  text-align: right;
+}
+
+.button-content {
+  width: 45%;
+  float: left;
+  margin: auto;
+  padding: 30px 0 0 50px;
+}
 /******* FOOTER ******/
 
 .social-media-navigation ul {

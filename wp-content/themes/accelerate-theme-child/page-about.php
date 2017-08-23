@@ -55,4 +55,15 @@ get_header(); ?>
 	</div><!-- #content -->
 </div><!-- #primary -->
 
+<div class="button-section clearfix site-content">
+	<div class="button-section-header">
+		<h2> Interested in working with us?</h2>
+	</div>
+	<div class= "button-content">
+		<a class="button" href="<?php echo site_url('/contact-us/'); ?>">Contact Us</a>
+	</div>
+</div><!-- #contact-button -->
+
+
+
 <?php get_footer(); ?>
