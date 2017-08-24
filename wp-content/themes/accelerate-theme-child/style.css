@@ -32,8 +32,23 @@
   background: none repeat scroll 0 0 #45ac9d;
 }
 
+.mc4wp-form-fields div {
+  height: 45px;
+  margin-top: 20px;
+  display: block;
+  width: 152px;
+  background: none repeat scroll 0 0 #45ac9d;
+  position: relative;
+}
+
+.mc4wp-form-fields div input {
+  background: none;
+  position: relative;
+  top: -10px;
+}
+
 .featured-work {
-  margin-bottom: 90px;
+  margin-bottom: 70px;
   display: block;
   height: 420px;
 }
@@ -85,6 +100,8 @@
 
 .blog-post {
   width: 50%;
+  float: left;
+  padding-right: 10%;
 }
 
 .blog-post h4 {
@@ -105,7 +122,11 @@
 	text-transform: uppercase;
 }
 
-
+#secondary li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
 /******* CASE STUDY PAGES ********/
 
 .case-study-sidebar {
@@ -289,6 +310,37 @@
   margin: auto;
   padding: 30px 0 0 50px;
 }
+
+/******* 404 PAGE******/
+
+.error-page-content {
+  text-align: center;
+}
+
+.error-page-content h1 {
+  font-size: 8em;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.error-page-content h2 {
+  font-size: 2em;
+    color: #45ac9d;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.error-page-content h4 {
+  width: 40%;
+  margin: auto;
+}
+
+.error-page-content a {
+  color: #45ac9d;
+  font-style: italic;
+}
+
 /******* FOOTER ******/
 
 .social-media-navigation ul {
